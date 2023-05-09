@@ -1,0 +1,66 @@
+div {float: right;
+}
+
+button.HS.button {background-color: red;
+border-radius: 5px;
+cursor: pointer;
+}
+/*Welcome page*/
+
+h1 {text-align: center;
+display: ;
+}
+
+h3 {text-align: center;
+display: ;
+}
+
+button.S.button {background-color: black;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+position: absolute;
+left: 47%;
+margin-top: 15px;
+display: ;
+}
+
+body{background-color: grey;}
+
+/*Questions page elements*/
+
+h2 {text-align: center;
+display: none;
+}
+
+.Questions li{ list-style: none;
+display:none ;
+}
+
+/*Results page elements*/
+
+p{ font-size: 35px;
+text-align: center;
+display: none;
+}
+
+div#initials {
+  display: none ;
+  position: absolute;
+  left: 32%;
+  
+}
+ /*Highscore elements*/
+
+h4 {font-size: 40px;
+text-align: center;
+display:none;
+}
+
+div#Leaderboard {
+  display:none;
+  position: absolute;
+  left: 45%;
+}
+
+

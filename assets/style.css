@@ -12,10 +12,10 @@ display: ;
 }
 
 h3 {text-align: center;
-display: ;
+display:;
 }
 
-button.S.button {background-color: black;
+div#s-btn {background-color: black;
 color: white;
 cursor: pointer;
 border-radius: 5px;
@@ -25,16 +25,32 @@ margin-top: 15px;
 display: ;
 }
 
+
+button{ background-color: black;
+color: white;
+border-radius: 5px;
+
+}
+
 body{background-color: grey;}
 
 /*Questions page elements*/
 
 h2 {text-align: center;
-display: none;
+display:none ;
 }
 
-.Questions li{ list-style: none;
-display:none ;
+div#anwser {
+  float: left;
+  display:none ;
+}
+ul{
+  list-style: none;
+}
+
+div#nxt{
+  float: right;
+  display: none;
 }
 
 /*Results page elements*/

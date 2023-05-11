@@ -13,32 +13,36 @@
   <header>
     <nav>
       <button class="HS button">View Highscore</button>
-      <div id="Quiz timer">Timer: 00:00</div>
+      <div id="timer">Timer 00:00</div>
     </nav>
-    <h1>
-      Coding Quiz Challenge
-    </h1>
-    <h3>
-      Try your Knowledge on code related question and attempt to beat the high score, Good Luck!!
-    </h3>
 
-    <div id="s-btn">
-      <button>Start Quiz</button>
+    <div id="startscreen">
+      <h1>
+        Coding Quiz Challenge
+      </h1>
+      <h3>
+        Try your Knowledge on code related question and attempt to beat the high score, Good Luck!!
+      </h3>
+  
+      <div id="s-btn">
+        <button id="start">Start Quiz</button>
+      </div>
     </div>
+
 
   </header>
 
 
   <main>
-    <section class="Questions">
-      <h2 id="questions">My Questions will go here</h2>
+    <section id="Questions" class="hidden">
+      <h2 id="title"></h2>
       <div id="anwser">
       <ul>
         <!--JavaScript-->
-        <li><button>Anwser 1</button></li>
+        <!-- <li><button>Anwser 1</button></li>
         <li><button>Anwser 2</button></li>
         <li><button>Anwser 3</button></li>
-        <li><button>Anwser 4</button></li>
+        <li><button>Anwser 4</button></li> -->
       </ul>
       </div>
       <div id="nxt">
@@ -47,7 +51,7 @@
     </section>
 
 
-    <section class="Result">
+    <section class="Result hidden">
       <p>All Done!!</p>
       <p>Your Score: 00</p>
       <div id="initials">
@@ -58,7 +62,7 @@
     </section>
 
 
-    <section class="HS">
+    <section class="HS hidden">
       <h4>Highscores</h4>
       <div id="Leaderboard">
         <ol>

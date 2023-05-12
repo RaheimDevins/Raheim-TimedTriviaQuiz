@@ -74,6 +74,16 @@ options.appendChild(elementNode)
 }
 }
 
+//--Event to change questiions after anwser is selected--//
+var element = document.querySelector('#anwser');
+var correct = true;
+element.addEventListener('click',function() {
+  if (correct === true) {
+    questions[i++]
+  }
+  
+})
+
   
 
 //--for loop for progressing though questions and correct or not--//

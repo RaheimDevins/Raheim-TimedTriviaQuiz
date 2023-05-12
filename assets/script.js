@@ -59,7 +59,7 @@ function popQues() {
   var titleEl = document.getElementById('title')
   titleEl.textContent = quizQues.question
 
-  // loop though anwsers
+  // loop though questions
 for(var i=0; i < quizQues.anwsers.length; i++){
 
  // create anwser buttons 
@@ -73,6 +73,8 @@ console.log(elementNode)
 options.appendChild(elementNode)
 }
 }
+
+  
 
 //--for loop for progressing though questions and correct or not--//
 

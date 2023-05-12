@@ -14,7 +14,7 @@ This page is used to assist user in basic knowledge of JavaScript and also show 
 
 ## Deployment
 
-
+https://raheimdevins.github.io/Raheim-TimedTriviaQuiz/
 
 ## Credits
 
